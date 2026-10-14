@@ -1,1 +1,1 @@
-const $=s=>document.querySelector(s);let tasks=[];try{tasks=JSON.parse(localStorage.getItem('daylight-tasks')||'[]')}catch{}function
+const $=s=>document.querySelector(s);let tasks=[];try{tasks=JSON.parse(localStorage.getItem('daylight-tasks')||'[]')}catch{}function save(){localStorage.setItem('daylight-tasks',JSON.stringify(tasks));render()}function render(){const 

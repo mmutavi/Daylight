@@ -1,0 +1,1 @@
+const $=s=>document.querySelector(s);let tasks=[];try{tasks=JSON.parse(localStorage.getItem('daylight-tasks')||'[]')}catch{}function
